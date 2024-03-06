@@ -17,7 +17,7 @@ jobs:
         run: npm install -g turbowarp-packager-cli
 
       - name: Package project
-        run: npx turbowarp-packager-cli -i project.sb3 -o dist
+        run: npx turbowarp-packager-cli -i Source.sb3 -o dist
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
